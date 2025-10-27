@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sendButton = document.getElementById('send-button');
 
     // ✅ Webhook do Impacto AI
-    const webhookURL = 'https://n8nbot.ngrok.app/webhook/d27f2cbe-1564-41ac-a17f-9095309a31d1/chat';
+    const webhookURL = 'https://n8nbot.ngrok.app/webhook/6d9fabcd-3748-458f-a5ab-eca6f2d03170/chat';
 
     // Gera um ID de sessão único para a memória do chat no n8n
     const sessionId = 'impacto_' + Math.random().toString(36).substring(2, 9);
